@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            min-height: 1000px;
+        }
+
+        svg {
+            display: block;
+            margin: 20px;
+            background-color: #eee;
+        }
+
+        .satu {
+            background-color: #ddd;
+            width: 300px;
+            height: 300px;
+        }
+
+        .kotak1 {
+            width: 100px;
+            height: 100px;
+            fill: #f00;
+            x: 100px;
+            y: 100px;
+        }
+
+        .custom-shape-divider-top-1746415281 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        .custom-shape-divider-top-1746415281 svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 163px;
+        }
+
+        .custom-shape-divider-top-1746415281 .shape-fill {
+            fill: blue;
+        }
+
+        :hover.custom-shape-divider-top-1746415281 .shape-fill {
+            fill: #FFFFFF;
+        }
+    </style>
+</head>
+
+<body>
+    <svg class="satu" viewBox="0 0 300 300">
+        <rect class="kotak1" />
+    </svg>
+
+    <svg width="100" height="100" fill="lightblue">
+        <rect width />
+        <circle cx="50" cy="50" r="40" fill="green" />
+        <rect x="15" y="15" width="70" height="70" fill="yellow" />
+    </svg>
+
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#FF0066"
+            d="M55.5,-51.1C66.9,-44.1,67.7,-22,67.1,-0.7C66.4,20.7,64.2,41.3,52.8,56.1C41.3,70.8,20.7,79.6,3,76.7C-14.7,73.7,-29.5,59,-44.7,44.2C-59.9,29.5,-75.6,14.7,-75.6,0C-75.6,-14.7,-59.9,-29.5,-44.7,-36.5C-29.5,-43.5,-14.7,-42.8,3.6,-46.4C22,-50.1,44.1,-58.1,55.5,-51.1Z"
+            transform="translate(100 100)" />
+    </svg>
+
+    <div class="custom-shape-divider-top-1746415281">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <svg>
+        <path fill="none" stroke="black" d="M 60,10 L 110, 90 H 10 L 60,10" />
+
+        <path fill="none" stroke="black" d="m 170, 10 l 50,80 h -100 l 50,-80" />
+    </svg>
+
+    <svg>
+        <polygon points="100,10 40,198 190,78 10,78 160,198" fill="yellow" stroke="black" />
+    </svg>
+
+    <svg>
+        <path fill="salmon" d="M 10,30 
+        A 20,20 0 0,1 50,30
+        A 20,20 0 0,1 90,30
+        Q 90, 60 50, 90
+        Q 10, 60, 10, 30 z" />
+    </svg>
+
+    <svg width="258" height="245" viewB0x="0 0 258 245" fill="none" xmls="http://www.w3.org/2000/svg">
+        <path d="M129 9.70819L156.456 94.2097L157.13 96.
+        2827H159.309L248.16 96.2827L176.278 148.508L174.
+        515 149.789L175.188 151.862L202.645 236.363L130.
+        763 184.138L129 182.857L127.237 184.138L55.3553
+        236.363L82.8115 151.862L83.4851 149.789L81.7217
+        148.508L9.84042 96.2827L98.6986 96.2827H100.
+        87L101.544 94.2097L129 9.70819Z" fill="#1A9DE7" stroke="black" stroke-width="6" />
+    </svg>
+
+    <svg>
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="200" height="100" fill="url(#grad1)" />
+    </svg>
+
+    <svg>
+        <defs>
+            <radialGradient id="grad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            </radialGradient>
+        </defs>
+        <rect x="0" y="0" width="200" height="100" fill="url(#grad2)" />
+    </svg>
+</body>
+
+</html>
